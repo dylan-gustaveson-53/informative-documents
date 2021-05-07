@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "informative-documents"
+  description: "test"
+  annotations:
+    github.com/project-slug: dylan-gustaveson-53/informative-documents
+    backstage.io/techdocs-ref: url:https://github.com/dylan-gustaveson-53/informative-documents
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "dylan-gustaveson-53"
